@@ -13,9 +13,9 @@ def xo(s):
     num_x = 0
     num_o = 0
     for character in characters:
-        if character.lower() == "o".lower():
+        if character.lower() == "o":
             num_o += 1
-        elif character.lower() == "x".lower():
+        elif character.lower() == "x":
             num_x += 1
     if num_x == num_o:
         return True
