@@ -10,7 +10,7 @@ Examples
 2000 --> 20
 2742 --> 28"""
 
-#This kata wwas one of the first kata I solved the solution is absurdly long!
+#This kata was one of the first kata I solved the solution is absurdly long!
 
 def century(year):
     num = str(year)
